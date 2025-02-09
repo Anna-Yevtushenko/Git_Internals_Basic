@@ -2,12 +2,14 @@
 
 <details>
 <summary>Code example🖥️ </summary>
-#include <iostream>
-#include <WinSock2.h>
-#include <Ws2tcpip.h>
-#pragma comment(lib, "ws2_32.lib")
 
-int main() {
+    
+    #include <iostream>
+    #include <WinSock2.h>
+    #include <Ws2tcpip.h>
+    #pragma comment(lib, "ws2_32.lib")
+    
+    int main() {
     WSADATA wsaData;
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
         std::cerr << "WSAStartup failed" << std::endl;
@@ -62,11 +64,6 @@ int main() {
 
 
 ```
-</details>
-
-
-<details>
-<summary>Code example🖥️ </summary>
 
 
 ```

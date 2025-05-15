@@ -316,33 +316,35 @@ Report the commands used to switch to the test_cherrypick branch and cherry-pick
 We have the same first commit, but after cherry-picking the second and third commits we got a different hash, but the same commit content.
 This is because cherry-pick does not make a direct copy of the commit, but creates a new unique commit.
 
-Create test1 folder and add initial empty commit
-Observation: Note the commit hash.
+Create **test1** folder and add initial empty commit
+
+**Observation:** Note the commit hash.
 
 We have the same first commit, but after cherry-picking the second and third commits we got a different hash, but the same commit content.
 This is because cherry-pick does not make a direct copy of the commit, but creates a new unique commit.
 
-31. Create test1 folder and add initial empty commit
-Observation: Note the commit hash.
+Create **test1** folder and add initial empty commit
+
+**Observation:** Note the commit hash.
 
 <img src="https://github.com/user-attachments/assets/924e3b4a-32d4-4953-8a64-7452d69ae077" style="height: 80px;"/>
 </div> 
 
 Copy the folder
-cp -r test1 test2
+`cp -r test1 test2`
 Confirm that test2 has the same commit history as test1.
 
 <img src="https://github.com/user-attachments/assets/fc27f9cc-54d4-4ed0-b843-9b0b0b605928" style="height: 230px;"/>
 </div> 
 
-Observation: Report the command used to add a remote named myLocalRepo pointing to the test2 directory. Also, report the output of git remote -v to verify the remote was added correctly.
+**Observation**: Report the command used to add a remote named myLocalRepo pointing to the **test2** directory. Also, report the output of git remote -v to verify the remote was added correctly.
 
 <img src="https://github.com/user-attachments/assets/3d947e73-45db-4ad0-9307-123b45e18846" style="height: 170px;"/>
 </div> 
 
-37.	Create new file in test1
+37.	Create new file in **test1**
 38.	Commit the file
-39.	Report the commands used to add and commit the 1.txt file in the test1 repository. Note the new commit hash.
+39.	Report the commands used to add and commit the **1.txt** file in the **test1** repository. Note the new commit hash.
 
 <img src="https://github.com/user-attachments/assets/4dbb2ecb-845e-4a63-b0be-c53b27a75056" style="height: 330px;"/>
 </div> 
